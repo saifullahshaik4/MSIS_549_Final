@@ -1,0 +1,98 @@
+[
+  {
+    "id": "lune-cafe-pioneer-square",
+    "businessName": "Lune Cafe - Pioneer Square",
+    "description": "107 1st Ave S, Seattle, WA 98104",
+    "imageUrl": "/LuneCafe.png",
+    "websiteUrl": "https://www.lunesglow.com/",
+    "latitude": 47.5995,
+    "longitude": -122.3344,
+    "radius": 50000,
+    "active": true,
+    "priority": 1
+  },
+  {
+    "id": "lune-cafe-u-district",
+    "businessName": "Lune Cafe - U-District",
+    "description": "5000 University Wy NE Suite E, Seattle, WA 98105",
+    "imageUrl": "/LuneCafe.png",
+    "websiteUrl": "https://www.lunesglow.com/",
+    "latitude": 47.6619,
+    "longitude": -122.3156,
+    "radius": 50000,
+    "active": true,
+    "priority": 1
+  },
+  {
+    "id": "qamaria-redmond",
+    "businessName": "Qamaria Redmond",
+    "description": "17585 Northeast 67th Court, Suite 100, Redmond, WA",
+    "imageUrl": "/Scan the QR code now to Discover authentic Yemeni coffee right here in Seattle.png",
+    "websiteUrl": "https://order.qamariacoffee.com/order/qamaria-redmond-wa",
+    "latitude": 47.6730,
+    "longitude": -122.1169,
+    "radius": 50000,
+    "active": true,
+    "priority": 1
+  },
+  {
+    "id": "toasted-u-district",
+    "businessName": "Toasted - U-District",
+    "description": "4756 15th Ave NE, Seattle, WA 98105",
+    "imageUrl": "/Toasted.png",
+    "websiteUrl": "https://toastedseattle.com/",
+    "latitude": 47.6625,
+    "longitude": -122.3117,
+    "radius": 50000,
+    "active": true,
+    "priority": 1
+  },
+  {
+    "id": "toasted-bellevue",
+    "businessName": "Toasted - Bellevue",
+    "description": "278 106th Ave NE #102-A, Bellevue, WA 98004",
+    "imageUrl": "/Toasted.png",
+    "websiteUrl": "https://toastedseattle.com/",
+    "latitude": 47.6139,
+    "longitude": -122.1965,
+    "radius": 50000,
+    "active": true,
+    "priority": 1
+  },
+  {
+    "id": "toasted-south-lake-union",
+    "businessName": "Toasted - South Lake Union",
+    "description": "901 Dexter Ave N, Seattle, WA 98109",
+    "imageUrl": "/Toasted.png",
+    "websiteUrl": "https://toastedseattle.com/",
+    "latitude": 47.6275,
+    "longitude": -122.3386,
+    "radius": 50000,
+    "active": true,
+    "priority": 1
+  },
+  {
+    "id": "toasted-pioneer-square",
+    "businessName": "Toasted - Pioneer Square",
+    "description": "101 Yesler Way #102A, Seattle, WA",
+    "imageUrl": "/Toasted.png",
+    "websiteUrl": "https://toastedseattle.com/",
+    "latitude": 47.6021,
+    "longitude": -122.3347,
+    "radius": 50000,
+    "active": true,
+    "priority": 1
+  },
+  {
+    "id": "crimson-coward-redmond",
+    "businessName": "Crimson Coward - Redmond",
+    "description": "2028 148th Ave NE, Redmond, WA 98052",
+    "imageUrl": "/Crimson.png",
+    "websiteUrl": "https://www.crimsoncoward.com/locations/crimson-coward-redmond-wa/",
+    "latitude": 47.6445,
+    "longitude": -122.1439,
+    "radius": 50000,
+    "active": true,
+    "priority": 1
+  }
+]
