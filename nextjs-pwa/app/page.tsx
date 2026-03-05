@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { useRouter } from 'next/navigation'
 import { Volume2, Sun, Star, MapPin, Navigation, ChevronLeft, ChevronRight } from 'lucide-react'
 import { Map, useUserLocation } from './components/Map'
 import { Chatbot } from './components/Chatbot'
@@ -255,6 +256,7 @@ function PushNotificationManager() {
 }
 
 export default function Page() {
+  const router = useRouter()
   const { location, error, isTracking, startTracking, stopTracking } = useUserLocation()
   const { locationName, isLoading } = useReverseGeocode(location)
   const { ads, isLoading: isLoadingAd } = useAdRecommendations(location)
@@ -337,18 +339,9 @@ export default function Page() {
     ? [recommendedAd.latitude, recommendedAd.longitude]
     : undefined
 
-  // Function to open website in a popup window
+  // Function to open website in ad-viewer page with back button
   const handleAdClick = (websiteUrl: string) => {
-    const width = 1000
-    const height = 800
-    const left = (window.screen.width - width) / 2
-    const top = (window.screen.height - height) / 2
-    
-    window.open(
-      websiteUrl,
-      'AdWebsite',
-      `width=${width},height=${height},left=${left},top=${top},toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes`
-    )
+    router.push(`/ad-viewer?url=${encodeURIComponent(websiteUrl)}`)
   }
 
   return (

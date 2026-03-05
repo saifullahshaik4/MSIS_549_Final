@@ -441,7 +441,7 @@ export function useUserLocation() {
 
   const startTracking = () => {
     if (typeof window === 'undefined') return
-    
+
     if (!navigator.geolocation) {
       setError('Geolocation is not supported by your browser')
       return

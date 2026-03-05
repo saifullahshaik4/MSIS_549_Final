@@ -157,21 +157,32 @@ npm run build
 npm start
 ```
 
+## Technical Architecture
+
+See **[architecture.md](architecture.md)** for detailed architecture diagrams, tech stack, data flows, and component structure.
+
 ## Technologies
 
 ### Frontend
 - Next.js 16 (App Router)
+- React 19
 - TypeScript
-- Tailwind CSS
-- Leaflet (Maps)
+- Tailwind CSS 4
+- Leaflet + react-leaflet (Maps)
 - Lucide React (Icons)
 - Web Push API
 
 ### Backend
 - Node.js + Express
 - TypeScript
-- JSON file storage (no database)
+- @google/genai (Gemini)
+- JSON file storage (ads.json)
 - CORS enabled
+
+### External APIs
+- **Nominatim** (OpenStreetMap) — Reverse geocoding (coordinates → city name)
+- **OSRM** (Open Source Routing Machine) — Driving routes and duration
+- **Google Gemini** — AI chatbot for recommendations
 
 ## Troubleshooting
 
